@@ -93,6 +93,8 @@ android {
 }
 
 dependencies {
+    implementation(libs.play.services.car)
+    implementation(libs.androidx.media)
     implementation(libs.simple.tools.commons)
     implementation(libs.eventbus)
     implementation(libs.audiorecordview)

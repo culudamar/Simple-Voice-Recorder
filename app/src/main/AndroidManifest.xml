@@ -104,6 +104,13 @@
             android:label="@string/customize_colors"
             android:parentActivityName=".activities.SettingsActivity" />
 
+        <service android:name=".services.MyMediaBrowserService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.media.browse.MediaBrowserService"/>
+            </intent-filter>
+        </service>
+
         <service
             android:name=".services.RecorderService"
             android:foregroundServiceType="microphone"

@@ -10,6 +10,8 @@ androidx-swiperefreshlayout = "1.1.0"
 #Eventbus
 eventbus = "3.3.1"
 #Room
+media = "1.6.0"
+playServicesCar = "1.0.0-alpha7"
 room = "2.6.0-alpha02"
 #Simple tools
 simple-commons = "8e7dd4508e"
@@ -24,7 +26,7 @@ gradlePlugins-agp = "8.7.1"
 #build
 app-build-compileSDKVersion = "34"
 app-build-targetSDK = "34"
-app-build-minimumSDK = "23"
+app-build-minimumSDK = "24"
 app-build-javaVersion = "VERSION_17"
 app-build-kotlinJVMTarget = "17"
 #versioning
@@ -35,12 +37,14 @@ app-version-versionName = "5.12.3"
 #AndroidX
 androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "androidx-constraintlayout" }
 androidx-documentfile = { module = "androidx.documentfile:documentfile", version.ref = "androidx-documentfile" }
+androidx-media = { module = "androidx.media:media", version.ref = "media" }
 androidx-swiperefreshlayout = { module = "androidx.swiperefreshlayout:swiperefreshlayout", version.ref = "androidx-swiperefreshlayout" }
 #Room
 androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
 androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "room" }
 androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
 #Simple Mobile Tools
+play-services-car = { module = "androidx.car:car", version.ref = "playServicesCar" }
 simple-tools-commons = { module = "com.github.SimpleMobileTools:Simple-Commons", version.ref = "simple-commons" }
 #EventBus
 eventbus = { module = "org.greenrobot:eventbus", version.ref = "eventbus" }
